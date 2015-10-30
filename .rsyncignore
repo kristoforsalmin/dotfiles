@@ -1,0 +1,6 @@
+bin
+lib
+.rsyncignore
+install.bash
+LICENSE
+README.md
