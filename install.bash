@@ -21,7 +21,7 @@ fi
 ask_confirmation 'Do you want to set the OS preferences?'
 
 if is_confirmed; then
-	if   [[ "$OS_NAME" == "Darwin" ]]; then
+	if [[ "$OS_NAME" == "Darwin" ]]; then
 		bash ./lib/osx/preferences.bash
 	elif [[ "$OS_NAME" == "Linux" ]]; then
 		bash ./lib/fedora/preferences.bash
