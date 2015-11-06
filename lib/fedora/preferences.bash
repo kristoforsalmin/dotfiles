@@ -10,6 +10,9 @@ gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing 'rgba'
 
 echo 'Xft.lcdfilter: lcddefault' > ~/.Xresources
 
+# Add minimize button to the titlebar
+gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,close'
+
 # Settings
 # ----------------------------------------------------------------------
 
