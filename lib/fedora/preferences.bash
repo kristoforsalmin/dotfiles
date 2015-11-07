@@ -43,6 +43,9 @@ gsettings set org.gnome.desktop.interface cursor-blink false
 # Enable list view in all windows by default
 gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
 
+# Show folders first in windows
+gsettings set org.gnome.nautilus.preferences sort-directories-first true
+
 # Set default zoom level
 gsettings set org.gnome.nautilus.list-view default-zoom-level 'small'
 
