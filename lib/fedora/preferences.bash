@@ -3,13 +3,6 @@
 # General
 # ----------------------------------------------------------------------
 
-# Improve fonts rendering
-# Run `xrdb -query` to view default settings.
-gsettings set org.gnome.settings-daemon.plugins.xsettings hinting 'slight'
-gsettings set org.gnome.settings-daemon.plugins.xsettings antialiasing 'rgba'
-
-echo 'Xft.lcdfilter: lcddefault' > ~/.Xresources
-
 # Add minimize button to the titlebar
 gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,close'
 
