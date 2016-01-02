@@ -17,11 +17,6 @@ defaults write NSGlobalDomain AppleShowScrollBars -string 'Always'
 # Close windows when quitting an app
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
-# Recent items "None"
-# /usr/libexec/PlistBuddy -c 'Set :RecentDocuments:MaxAmount 0' ~/Library/Preferences/com.apple.recentitems.plist
-# /usr/libexec/PlistBuddy -c 'Set :RecentServers:MaxAmount 0' ~/Library/Preferences/com.apple.recentitems.plist
-# /usr/libexec/PlistBuddy -c 'Set :RecentApplications:MaxAmount 0' ~/Library/Preferences/com.apple.recentitems.plist
-
 # 2. Desktop & Screen Saver
 
 # Start after "10 Minutes"
@@ -39,8 +34,6 @@ defaults write com.apple.dock mineffect 'scale'
 # Minimize windows into apllication icon
 defaults write com.apple.dock minimize-to-application -bool true
 
-# 4. Spotlight
-
 # 5. Energy Saver
 
 # Computer sleep "Never"
@@ -55,10 +48,22 @@ defaults write NSGlobalDomain com.apple.keyboard.fnState -int 1
 # (e.g. enable Tab in modal dialogs).
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# 7. Mouse
+# 7. Mouse and Trackpad
 
 # Disable natural scroll direction
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+# Secondary click "Click in bottom right corner"
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+
+# Tap to click "Tap with one finger"
+
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # 8. Date & Time
 
@@ -80,10 +85,6 @@ defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Text encoding "Unicode (UTF-8)"
 defaults write com.apple.terminal StringEncodings -array 4
-
-# Set the Profile
-# defaults write com.apple.terminal 'Default Window Settings' -string 'Pro'
-# defaults write com.apple.terminal 'Startup Window Settings' -string 'Pro'
 
 # Finder
 # ----------------------------------------------------------------------

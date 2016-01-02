@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
-OS_NAME="$(uname -s)"
-
-cd "$(dirname $BASH_SOURCE)"
-
-source ./lib/utils.bash
+cd "$(dirname $BASH_SOURCE)" && source ./lib/utils.bash
 
 # Ask for the administrator password upfront
 ask_sudo
@@ -21,11 +17,6 @@ fi
 ask_confirmation 'Do you want to set the OS preferences?'
 
 if is_confirmed; then
-	if [[ "$OS_NAME" == "Darwin" ]]; then
-		bash ./lib/osx/preferences.bash
-	elif [[ "$OS_NAME" == "Linux" ]]; then
-		bash ./lib/fedora/preferences.bash
-	fi
-
+	bash ./lib/preferences.bash
 	print_success 'OS preferences have been set! You may need to restart.'
 fi
