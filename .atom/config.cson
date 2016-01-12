@@ -1,0 +1,28 @@
+"*":
+  core:
+    themes: [
+      "atom-light-ui"
+      "one-light-syntax"
+    ]
+    disabledPackages: [
+      "exception-reporting"
+      "metrics"
+      "welcome"
+      "wrap-guide"
+    ]
+  editor:
+    invisibles: {}
+    tabLength: 4
+    fontSize: 13
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
+  emmet: {}
+  "tree-view":
+    hideIgnoredNames: true
+".js.source":
+  editor:
+    tabLength: 2
+".json.source":
+  editor:
+    tabLength: 2
