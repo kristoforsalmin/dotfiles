@@ -26,3 +26,6 @@
 ".json.source":
   editor:
     tabLength: 2
+".ruby.source":
+  editor:
+    tabLength: 2
