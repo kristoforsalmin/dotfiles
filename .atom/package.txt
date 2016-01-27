@@ -1,2 +1,2 @@
-emmet@2.3.18
+emmet@2.4.1
 sort-lines@0.13.0
