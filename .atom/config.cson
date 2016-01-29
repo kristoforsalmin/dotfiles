@@ -12,7 +12,6 @@
     ]
   editor:
     invisibles: {}
-    tabLength: 4
     fontSize: 13
   whitespace:
     ensureSingleTrailingNewline: false
@@ -20,12 +19,3 @@
   emmet: {}
   "tree-view":
     hideIgnoredNames: true
-".js.source":
-  editor:
-    tabLength: 2
-".json.source":
-  editor:
-    tabLength: 2
-".ruby.source":
-  editor:
-    tabLength: 2
