@@ -31,10 +31,3 @@ print_error() {
 print_warning() {
 	printf "$(tput setaf 136)! %s$(tput sgr0)\n" "$@"
 }
-
-print_result() {
-	[ $1 -eq 0 ] \
-		&& print_success "$2" \
-		|| print_error "$2"
-	return $1
-}
