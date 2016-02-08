@@ -1,21 +1,25 @@
 "*":
   core:
-    themes: [
-      "atom-light-ui"
-      "one-light-syntax"
-    ]
     disabledPackages: [
       "exception-reporting"
       "metrics"
       "welcome"
       "wrap-guide"
     ]
+    themes: [
+      "atom-light-ui"
+      "one-light-syntax"
+    ]
   editor:
-    invisibles: {}
     fontSize: 13
+    invisibles: {}
+  emmet: {}
+  linter:
+    showErrorInline: false
+    showErrorTabLine: false
+    underlineIssues: false
+  "tree-view":
+    hideIgnoredNames: true
   whitespace:
     ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
-  emmet: {}
-  "tree-view":
-    hideIgnoredNames: true
