@@ -15,11 +15,11 @@
     invisibles: {}
   emmet: {}
   linter:
+    lintOnFly: false
     showErrorInline: false
     showErrorTabLine: false
     underlineIssues: false
   "tree-view":
     hideIgnoredNames: true
   whitespace:
-    ensureSingleTrailingNewline: false
     ignoreWhitespaceOnCurrentLine: false
