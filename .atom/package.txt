@@ -1,4 +1,4 @@
 emmet@2.4.1
 linter@1.11.3
-linter-eslint@6.0.0
+linter-eslint@7.0.0
 sort-lines@0.14.0
