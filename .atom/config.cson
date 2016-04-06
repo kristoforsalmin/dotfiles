@@ -11,7 +11,7 @@
       "one-light-syntax"
     ]
   editor:
-    fontSize: 13
+    fontSize: 14
     invisibles: {}
   emmet: {}
   linter:

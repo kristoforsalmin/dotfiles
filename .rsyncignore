@@ -1,5 +1,4 @@
 .git
-bin
 lib
 .rsyncignore
 install.bash

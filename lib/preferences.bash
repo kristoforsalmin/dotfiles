@@ -79,12 +79,6 @@ hash tmutil &> /dev/null && sudo tmutil disablelocal
 # Reduse transparency
 defaults write com.apple.universalaccess reduceTransparency -bool true
 
-# Terminal
-# ----------------------------------------------------------------------
-
-# Text encoding "Unicode (UTF-8)"
-defaults write com.apple.terminal StringEncodings -array 4
-
 # Finder
 # ----------------------------------------------------------------------
 
@@ -108,6 +102,24 @@ defaults write com.apple.finder FXDefaultSearchScope -string 'SCcf'
 
 # Sort by "Snap to Grid" for desktop
 /usr/libexec/PlistBuddy -c 'Set :DesktopViewSettings:IconViewSettings:arrangeBy grid' ~/Library/Preferences/com.apple.finder.plist
+
+# Grab
+# ----------------------------------------------------------------------
+
+# Save screenshots to the desktop
+defaults write com.apple.screencapture location -string "$HOME/Desktop"
+
+# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+defaults write com.apple.screencapture type -string 'png'
+
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# Photos
+# ----------------------------------------------------------------------
+
+# Disable opening Photos automatically when devices are plugged in
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 # Safari
 # ----------------------------------------------------------------------
@@ -134,14 +146,8 @@ defaults write com.apple.Safari AutoFillMiscellaneousForms -bool false
 # Show Develop menu in menu bar
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 
-# Grab
+# Terminal
 # ----------------------------------------------------------------------
 
-# Save screenshots to the desktop
-defaults write com.apple.screencapture location -string "$HOME/Desktop"
-
-# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
-defaults write com.apple.screencapture type -string 'png'
-
-# Disable shadow in screenshots
-defaults write com.apple.screencapture disable-shadow -bool true
+# Text encoding "Unicode (UTF-8)"
+defaults write com.apple.terminal StringEncodings -array 4
