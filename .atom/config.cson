@@ -13,6 +13,7 @@
   editor:
     fontSize: 14
     invisibles: {}
+    showIndentGuide: true
   emmet: {}
   linter:
     lintOnFly: false
@@ -21,5 +22,6 @@
     underlineIssues: false
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
