@@ -5,7 +5,7 @@ setup_profile() {
 		'.bash_aliases'
 		'.bash_exports'
 		'.bash_options'
-		'.bash_promt'
+		'.bash_prompt'
 		'.bash_profile.local'
 	)
 
