@@ -24,10 +24,6 @@ print_success() {
 	printf "$(tput setaf 64)✓ %s$(tput sgr0)\n" "$@"
 }
 
-print_error() {
-	printf "$(tput setaf 1)x %s$(tput sgr0)\n" "$@"
-}
-
 print_warning() {
 	printf "$(tput setaf 136)! %s$(tput sgr0)\n" "$@"
 }

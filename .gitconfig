@@ -1,16 +1,15 @@
 [core]
 
-	# Use custom `.gitignore` and `.gitattributes`
+	# Use custom `.gitignore`
 	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
 
 [color]
 
-	# Enable color highlighting in console
+	# Enable color highlighting
 	ui = auto
 	interactive = auto
 
 [help]
 
-	# Enable automatic correction and execution mistyped commands
+	# Enable automatic correction and execution of the mistyped commands
 	autocorrect = 1

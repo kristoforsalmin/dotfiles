@@ -1,6 +1,6 @@
 .git
-lib
 .rsyncignore
 install.bash
+lib
 LICENSE
 README.md

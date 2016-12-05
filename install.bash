@@ -13,10 +13,10 @@ if is_confirmed; then
 	print_success 'Dotfiles have been copied!'
 fi
 
-# Set preferences
-ask_confirmation 'Do you want to set the OS preferences?'
+# Set macOS preferences
+ask_confirmation 'Do you want to set macOS preferences?'
 
 if is_confirmed; then
 	bash ./lib/preferences.bash
-	print_success 'OS preferences have been set! You may need to restart.'
+	print_success 'macOS preferences have been set! You may need to restart.'
 fi

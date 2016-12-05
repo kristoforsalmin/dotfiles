@@ -1,6 +1,7 @@
-editorconfig@1.4.1
-emmet@2.4.3
-linter-eslint@7.2.4
-linter-stylelint@3.0.2
-linter@1.11.14
-sort-lines@0.14.0
+docblockr
+editorconfig
+emmet
+linter
+linter-eslint
+linter-stylelint
+sort-lines

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # See: http://ss64.com/bash/shopt.html
 
-# Autocorrect typos in path names when using `cd`
+# Enable automatic correction of the path names when using `cd`
 shopt -s cdspell

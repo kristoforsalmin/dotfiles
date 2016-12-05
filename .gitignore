@@ -1,8 +1,5 @@
-# OS files
+# macOS files
 ._*
 .DS_Store
-Thumbs.db
-
-# External disks files
 .Spotlight-V100
 .Trashes
