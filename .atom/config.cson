@@ -1,8 +1,12 @@
 "*":
   core:
     disabledPackages: [
+      "background-tips"
       "exception-reporting"
       "metrics"
+      "package-generator"
+      "styleguide"
+      "update-package-dependencies"
       "welcome"
       "wrap-guide"
     ]
@@ -20,6 +24,8 @@
     showErrorInline: false
     showErrorTabLine: false
     underlineIssues: false
+  "markdown-preview":
+    useGitHubStyle: true
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
