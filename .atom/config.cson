@@ -16,14 +16,15 @@
     ]
   editor:
     fontSize: 14
-    invisibles: {}
     showIndentGuide: true
   emmet: {}
-  linter:
-    lintOnFly: false
-    showErrorInline: false
-    showErrorTabLine: false
-    underlineIssues: false
+  linter: {}
+  "linter-ui-default":
+    decorateOnTreeView: "None"
+    showDecorations: false
+    showPanel: true
+    showTooltip: false
+    useBusySignal: false
   "markdown-preview":
     useGitHubStyle: true
   "tree-view":

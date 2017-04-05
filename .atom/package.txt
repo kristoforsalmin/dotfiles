@@ -4,4 +4,5 @@ emmet
 linter
 linter-eslint
 linter-stylelint
+linter-ui-default
 sort-lines
