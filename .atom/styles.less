@@ -1,3 +1,7 @@
+.atom-dock-toggle-button {
+  display: none;
+}
+
 .status-bar-left,
 .status-bar-right {
   &::before {
@@ -8,30 +12,17 @@
   }
 }
 
-.linter {
-  border: 0;
-  border-right: 1px solid @base-border-color;
+.inline-block > .inline-block {
+  margin-right: 0;
 }
 
-.linter-status-count .highlight,
-.linter-status-count .highlight-error {
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-radius: 0;
-
-  &:first-child {
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-  }
+.linter-status-count a {
+  padding: 0;
+  margin-right: @component-padding;
 
   &:last-child {
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
+    margin-right: 0;
   }
-}
-
-.linter-status-count .highlight-error {
-  color: @text-color-selected;
 }
 
 .markdown-preview[data-use-github-style] {
