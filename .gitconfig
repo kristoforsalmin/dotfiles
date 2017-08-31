@@ -1,15 +1,9 @@
-[core]
-
-	# Use custom `.gitignore`
-	excludesfile = ~/.gitignore
-
 [color]
 
-	# Enable color highlighting
-	ui = auto
-	interactive = auto
+  # Enable color highlighting
+  ui = auto
 
 [help]
 
-	# Enable automatic correction and execution of the mistyped commands
-	autocorrect = 1
+  # Enable automatic correction and execution of the mistyped commands
+  autocorrect = 1

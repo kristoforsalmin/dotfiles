@@ -1,7 +1,8 @@
-.editorconfig
 .git
+.gitignore
 .rsyncignore
-install.bash
-lib
+brew.bash
+dotfiles.bash
 LICENSE
+macos.bash
 README.md

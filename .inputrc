@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # See: http://ss64.com/bash/syntax-inputrc.html
 
-# Use case-insensitive TAB completions
+# Use case-insensitive completions
 set completion-ignore-case on
 
-# Show TAB completions immediately
+# Show completions immediately
 set show-all-if-ambiguous on

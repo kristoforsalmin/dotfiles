@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
 setup_profile() {
-	local files=(
-		'.bash_aliases'
-		'.bash_exports'
-		'.bash_options'
-		'.bash_prompt'
-		'.bash_profile.local'
-	)
+  local files=(
+    '.bash_options'
+    '.bash_prompt'
+    '.bash_profile.local'
+  )
 
-	for file in "${files[@]}"; do
-		[ -r "$file" ] && source "$file"
-	done
+  for file in "${files[@]}"; do
+    local path="$HOME/$file"
+
+    [ -r "$path" ] && source "$path"
+  done
 }
 
 setup_profile
