@@ -1,6 +1,7 @@
 {
   "editor.minimap.enabled": false,
   "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
   "workbench.colorTheme": "Default Light+",
   "workbench.startupEditor": "none"
 }
