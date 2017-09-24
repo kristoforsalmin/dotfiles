@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 
 setup_profile() {
-  local files=(
-    '.bash_options'
-    '.bash_prompt'
-    '.bash_profile.local'
+  local paths=(
+    "$HOME/.bash_aliases"
+    "$HOME/.bash_options"
+    "$HOME/.bash_prompt"
+    "$HOME/.bash_profile.local"
   )
 
-  for file in "${files[@]}"; do
-    local path="$HOME/$file"
-
+  for path in "${paths[@]}"; do
     [ -r "$path" ] && source "$path"
   done
 }

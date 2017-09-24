@@ -2,7 +2,6 @@ cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
 brew "mas"
-brew "node"
 brew "tree"
 
 cask "docker"
