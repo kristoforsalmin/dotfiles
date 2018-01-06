@@ -15,4 +15,5 @@ code \
   --install-extension EditorConfig.EditorConfig \
   --install-extension ms-vscode.sublime-keybindings \
   --install-extension msjsdiag.debugger-for-chrome \
+  --install-extension PeterJausovec.vscode-docker \
   --install-extension shinnn.stylelint
