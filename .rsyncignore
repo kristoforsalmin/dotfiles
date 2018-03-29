@@ -1,8 +1,6 @@
 .git
 .gitignore
 .rsyncignore
-applications.bash
-dotfiles.bash
+*.bash
 LICENSE
-preferences.bash
 README.md
