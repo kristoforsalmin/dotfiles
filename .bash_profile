@@ -3,7 +3,6 @@
 setup_profile() {
   local paths=(
     "$HOME/.bash_aliases"
-    "$HOME/.bash_options"
     "$HOME/.bash_prompt"
     "$HOME/.bash_profile.local"
   )
