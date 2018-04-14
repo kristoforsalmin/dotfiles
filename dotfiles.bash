@@ -2,4 +2,9 @@
 
 cd "$(dirname $BASH_SOURCE)"
 
-rsync -avh --no-perms --exclude-from=./.rsyncignore . ~
+rsync \
+  -a \
+  -v \
+  --no-perms \
+  --exclude-from=.rsyncignore \
+  . ~
