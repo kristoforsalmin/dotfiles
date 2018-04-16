@@ -76,11 +76,6 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-# 10. Accessibility
-
-# Reduce transparency
-defaults write com.apple.universalaccess reduceTransparency -bool true
-
 # Finder
 # ----------------------------------------------------------------------
 
