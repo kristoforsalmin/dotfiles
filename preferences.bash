@@ -117,6 +117,12 @@ defaults write com.apple.screencapture disable-shadow -bool true
 # Mail
 # ----------------------------------------------------------------------
 
+# Message font: "Helvetica 14"
+defaults write com.apple.mail NSFontSize -int 14
+
+# List Preview: "1 Line"
+defaults write com.apple.mail NumberOfSnippetLines -int 1
+
 # Disable loading remote content in messages
 defaults write com.apple.mail DisableURLLoading -bool true
 
