@@ -178,11 +178,9 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 # Spotlight
 # ----------------------------------------------------------------------
 
-# Change indexing order and disable some search results
+# Disable search results
 defaults write com.apple.spotlight orderedItems -array \
-  '{"enabled" = 1;"name" = "APPLICATIONS";}' \
-  '{"enabled" = 1;"name" = "MENU_DEFINITION";}' \
-  '{"enabled" = 1;"name" = "MENU_EXPRESSION";}' \
+  '{"enabled" = 0;"name" = "APPLICATIONS";}' \
   '{"enabled" = 0;"name" = "BOOKMARKS";}' \
   '{"enabled" = 0;"name" = "CONTACT";}' \
   '{"enabled" = 0;"name" = "DIRECTORIES";}' \
@@ -191,6 +189,8 @@ defaults write com.apple.spotlight orderedItems -array \
   '{"enabled" = 0;"name" = "FONTS";}' \
   '{"enabled" = 0;"name" = "IMAGES";}' \
   '{"enabled" = 0;"name" = "MENU_CONVERSION";}' \
+  '{"enabled" = 0;"name" = "MENU_DEFINITION";}' \
+  '{"enabled" = 0;"name" = "MENU_EXPRESSION";}' \
   '{"enabled" = 0;"name" = "MENU_OTHER";}' \
   '{"enabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}' \
   '{"enabled" = 0;"name" = "MENU_WEBSEARCH";}' \
