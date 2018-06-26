@@ -3,7 +3,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "explorer.openEditors.visible": 0,
   "extensions.ignoreRecommendations": true,
-  "sublimeTextKeymap.promptV3Features": true,
   "workbench.colorTheme": "Default Light+",
   "workbench.startupEditor": "none"
 }
