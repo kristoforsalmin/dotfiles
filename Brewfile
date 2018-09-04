@@ -1,7 +1,8 @@
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
+tap "homebrew/cask"
 
 brew "mas"
+brew "node"
 brew "tree"
 
 cask "adobe-acrobat-reader"

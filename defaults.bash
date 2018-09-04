@@ -39,18 +39,35 @@ defaults write com.apple.dock minimize-to-application -bool true
 # Dashboard: "As Overlay"
 defaults write com.apple.dashboard dashboard-enabled-state -int 3
 
-# 5. Security & Privacy
+# 5. Language & Region
+
+# Preferred languages: "English (U.S.)", "Русский"
+defaults write NSGlobalDomain AppleLanguages -array 'en-US' 'ru-US'
+
+# First day of week: "Monday"
+defaults write NSGlobalDomain AppleFirstWeekday -dict-add 'gregorian' -int 2
+
+# Time format: "24-Hour Time"
+defaults write NSGlobalDomain AppleICUForce24HourTime -bool true
+
+# Temperature: "°C — Celsius"
+defaults write NSGlobalDomain AppleTemperatureUnit -string 'Celsius'
+
+# Measurement units: "Metric"
+defaults write NSGlobalDomain AppleMetricUnits -bool true
+
+# 6. Security & Privacy
 
 # Reqire password "immediately" after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-# 6. Energy Saver
+# 7. Energy Saver
 
 # Computer sleep: "Never"
 sudo systemsetup -setcomputersleep Off > /dev/null
 
-# 7. Keyboard
+# 8. Keyboard
 
 # Use all F1, F2, etc. keys as standard function keys
 defaults write NSGlobalDomain com.apple.keyboard.fnState -int 1
@@ -58,12 +75,12 @@ defaults write NSGlobalDomain com.apple.keyboard.fnState -int 1
 # Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: "All controls"
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# 8. Mouse
+# 9. Mouse
 
 # Disable natural scroll direction
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
-# 9. Trackpad
+# 10. Trackpad
 
 # Secondary click "Click in bottom right corner"
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2

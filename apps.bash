@@ -4,9 +4,9 @@ cd "$(dirname $BASH_SOURCE)"
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/bundle
 
 # Install dependencies
+brew tap homebrew/bundle
 brew bundle
 
 # Install Visual Studio Code extensions
