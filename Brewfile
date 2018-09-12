@@ -1,4 +1,6 @@
 cask_args appdir: "/Applications"
+
+tap "homebrew/bundle"
 tap "homebrew/cask"
 
 brew "mas"
@@ -9,6 +11,7 @@ cask "adobe-acrobat-reader"
 cask "docker"
 cask "forklift"
 cask "google-chrome"
+cask "licecap"
 cask "opera"
 cask "skype"
 cask "transmission"
