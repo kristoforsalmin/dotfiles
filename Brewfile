@@ -15,7 +15,6 @@ cask "licecap"
 cask "opera"
 cask "skype"
 cask "transmission"
-cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 
