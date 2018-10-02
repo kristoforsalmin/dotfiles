@@ -83,15 +83,14 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 # 10. Trackpad
 
 # Secondary click "Click in bottom right corner"
+defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -int 2
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
 # Tap to click "Tap with one finger"
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Finder
 # ----------------------------------------------------------------------
