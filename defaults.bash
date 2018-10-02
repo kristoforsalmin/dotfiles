@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Disable reopening windows when logging back in
-defaults write com.apple.loginwindow TALLogoutSavesState -int 0
+defaults write com.apple.loginwindow TALLogoutSavesState -bool false
 
 # Avoid creating .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
@@ -59,7 +59,7 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 # 6. Security & Privacy
 
 # Reqire password "immediately" after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPassword -bool true
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # 7. Energy Saver
@@ -70,7 +70,7 @@ sudo systemsetup -setcomputersleep Off > /dev/null
 # 8. Keyboard
 
 # Use all F1, F2, etc. keys as standard function keys
-defaults write NSGlobalDomain com.apple.keyboard.fnState -int 1
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 
 # Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: "All controls"
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
@@ -229,7 +229,7 @@ defaults write com.apple.terminal StringEncodings -array 4
 defaults write com.apple.terminal SecureKeyboardEntry -bool true
 
 # Hide marks
-defaults write com.apple.Terminal ShowLineMarks -int 0
+defaults write com.apple.Terminal ShowLineMarks -bool false
 
 # Time Machine
 # ----------------------------------------------------------------------
