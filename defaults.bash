@@ -56,18 +56,12 @@ defaults write NSGlobalDomain AppleTemperatureUnit -string 'Celsius'
 # Measurement units: "Metric"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
-# 6. Security & Privacy
-
-# Reqire password "immediately" after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -bool true
-defaults write com.apple.screensaver askForPasswordDelay -int 0
-
-# 7. Energy Saver
+# 6. Energy Saver
 
 # Computer sleep: "Never"
 sudo systemsetup -setcomputersleep Off > /dev/null
 
-# 8. Keyboard
+# 7. Keyboard
 
 # Use all F1, F2, etc. keys as standard function keys
 defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
@@ -75,12 +69,12 @@ defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 # Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: "All controls"
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
-# 9. Mouse
+# 8. Mouse
 
 # Disable natural scroll direction
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
-# 10. Trackpad
+# 9. Trackpad
 
 # Secondary click "Click in bottom right corner"
 defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -int 2
