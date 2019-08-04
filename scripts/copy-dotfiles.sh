@@ -6,5 +6,4 @@ rsync \
   -a \
   -v \
   --no-perms \
-  --exclude-from=.rsyncignore \
-  . ~
+  ../home/ ~

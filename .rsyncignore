@@ -1,6 +1,0 @@
-.git
-.gitattributes
-.rsyncignore
-*.bash
-LICENSE
-README.md

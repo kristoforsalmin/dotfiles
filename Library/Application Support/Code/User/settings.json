@@ -1,8 +1,0 @@
-{
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "explorer.openEditors.visible": 0,
-  "extensions.ignoreRecommendations": true,
-  "workbench.colorTheme": "Default Light+",
-  "workbench.startupEditor": "none"
-}

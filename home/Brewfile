@@ -3,19 +3,22 @@ cask_args appdir: "/Applications"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 
+brew "git-lfs"
 brew "mas"
 brew "node"
 brew "tree"
 
 cask "adobe-acrobat-reader"
 cask "docker"
+cask "firefox"
 cask "forklift"
 cask "google-chrome"
 cask "licecap"
 cask "opera"
 cask "skype"
+cask "sublime-merge"
+cask "sublime-text"
 cask "transmission"
-cask "visual-studio-code"
 cask "vlc"
 
 mas "Keynote", id: 409183694
