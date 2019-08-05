@@ -11,8 +11,5 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.plist]
-indent_style = tab
-
 [*.sublime-*]
 indent_style = tab
