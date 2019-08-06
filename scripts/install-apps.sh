@@ -8,3 +8,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # Install dependencies
 brew tap homebrew/bundle
 brew bundle --file=../home/Brewfile
+
+# Install Atom extensions
+apm install editorconfig sort-lines

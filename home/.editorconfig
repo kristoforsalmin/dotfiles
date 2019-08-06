@@ -13,6 +13,3 @@ trim_trailing_whitespace = false
 
 [*.plist]
 indent_style = tab
-
-[*.sublime-*]
-indent_style = tab
