@@ -41,5 +41,3 @@
     useGitHubStyle: true
   tabs:
     enableMruTabSwitching: false
-  "tree-view":
-    autoReveal: true
