@@ -1,4 +1,8 @@
 "*":
+  "atom-package-deps":
+    ignored: [
+      "linter"
+    ]
   core:
     disabledPackages: [
       "archive-view"
@@ -32,11 +36,16 @@
       "one-light-ui"
       "one-light-syntax"
     ]
+    uriHandlerRegistration: "always"
   editor:
     autoIndentOnPaste: false
     preferredLineLength: 100
     showIndentGuide: true
     zoomFontWhenCtrlScrolling: false
+  linter:
+    lintOnChange: false
+  "linter-ui-plus":
+    showInStatusBar: false
   "markdown-preview":
     useGitHubStyle: true
   tabs:
