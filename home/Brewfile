@@ -16,8 +16,10 @@ cask "forklift"
 cask "google-chrome"
 cask "licecap"
 cask "opera"
+cask "prefs-editor"
 cask "skype"
 cask "transmission"
+cask "virtualbox"
 cask "vlc"
 
 mas "Keynote", id: 409183694
