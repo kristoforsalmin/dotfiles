@@ -57,4 +57,4 @@ bash ./scripts/set-defaults.sh
 
 ## License
 
-Code available under [MIT license](./LICENSE).
+Code available under the MIT license.
