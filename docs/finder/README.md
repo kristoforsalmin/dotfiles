@@ -21,5 +21,5 @@
 </div>
 
 <div align="center">
-  <img src="./images/downloads.png" alt="" width="184">
+  <img src="./images/downloads.png" alt="" width="294">
 </div>
