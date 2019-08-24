@@ -1,4 +1,4 @@
-# ⚙️ macOS
+# dotfiles
 
 ## License
 
