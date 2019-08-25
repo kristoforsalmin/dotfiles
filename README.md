@@ -55,6 +55,7 @@ bash ./scripts/set-defaults.sh
   * Date & Time
 * [Finder](./docs/finder/README.md)
 * [Terminal](./docs/terminal/README.md)
+* [Safari](./docs/safari/README.md)
 
 ## License
 
