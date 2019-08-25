@@ -1,5 +1,7 @@
 # Safari
 
+Set homepage to `about:blank`.
+
 <div align="center">
   <img src="./images/general.png" alt="" width="886">
 </div>
