@@ -54,6 +54,7 @@ bash ./scripts/set-defaults.sh
   * Siri
   * Date & Time
 * [Finder](./docs/finder/README.md)
+* [Terminal](./docs/terminal/README.md)
 
 ## License
 
