@@ -41,18 +41,6 @@ bash ./scripts/set-defaults.sh
 
 * [General](./docs/general/README.md)
 * [System Preferences](./docs/system-preferences/README.md)
-  * General
-  * Desktop & Screen Saver
-  * Dock
-  * Security & Privacy
-  * Spotlight
-  * Displays
-  * Energy Saver
-  * Keyboard
-  * Trackpad
-  * Sound
-  * Siri
-  * Date & Time
 * [Finder](./docs/finder/README.md)
 * [Terminal](./docs/terminal/README.md)
 * [Safari](./docs/safari/README.md)

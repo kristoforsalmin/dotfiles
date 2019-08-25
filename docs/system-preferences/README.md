@@ -1,5 +1,18 @@
 # System Preferences
 
+* [General](#general)
+* [Desktop & Screen Saver](#desktop--screen-saver)
+* [Dock](#dock)
+* [Security & Privacy](#security--privacy)
+* [Spotlight](#spotlight)
+* [Displays](#displays)
+* [Energy Saver](#energy-saver)
+* [Keyboard](#keyboard)
+* [Trackpad](#trackpad)
+* [Sound](#sound)
+* [Siri](#siri)
+* [Date & Time](#date--time)
+
 ## General
 
 <div align="center">
