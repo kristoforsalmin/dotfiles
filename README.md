@@ -8,33 +8,40 @@ macOS Mojave 10.14.6.
 
 ## Installation
 
-Download archive:
+Set Zsh as default shell:
 
-```bash
+```sh
+chsh -s "$(which zsh)"
+```
+
+Restart Terminal and download the archive:
+
+```sh
 curl -sSL --output ./dotfiles.zip https://github.com/kristoforsalmin/dotfiles/zipball/master
 ```
 
 Extract it:
 
-```bash
+```sh
 unzip ./dotfiles.zip
 ```
-Navigate to the newly created folder and run `copy-dotfiles.sh` script to copy dotfiles to your home directory:
 
-```bash
-bash ./scripts/copy-dotfiles.sh
+Navigate to the newly created folder, sign in to the App Store and run `install-apps.sh` script to install apps:
+
+```sh
+zsh ./scripts/install-apps.sh
 ```
 
-Sign in to the App Store and run `install-apps.sh` script to install third-party apps:
+Run `copy-dotfiles.sh` script to copy dotfiles to your home directory:
 
-```bash
-bash ./scripts/install-apps.sh
+```sh
+zsh ./scripts/copy-dotfiles.sh
 ```
 
 Run `set-defaults.sh` script to set hidden macOS defaults:
 
-```bash
-bash ./scripts/set-defaults.sh
+```sh
+zsh ./scripts/set-defaults.sh
 ```
 
 ## Configuration

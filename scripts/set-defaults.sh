@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Disable reopening windows when logging back in
 defaults write com.apple.loginwindow TALLogoutSavesState -bool false

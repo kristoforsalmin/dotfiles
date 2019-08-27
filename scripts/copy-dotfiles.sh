@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-cd "$(dirname $BASH_SOURCE)"
+cd "$0:A:h"
 
 rsync \
   -a \

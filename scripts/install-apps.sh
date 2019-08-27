@@ -1,9 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-cd "$(dirname $BASH_SOURCE)"
+cd "$0:A:h"
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Install dependencies
 brew tap homebrew/bundle

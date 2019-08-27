@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-# Make nano the default editor
-export EDITOR='nano';
