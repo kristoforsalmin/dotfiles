@@ -1,16 +1,37 @@
 #!/usr/bin/env zsh
 
-cd "$0:A:h"
-
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Install dependencies
-brew tap homebrew/bundle
-brew bundle --file=../home/Brewfile
+# Install tools
+brew install \
+  git-lfs \
+  mas \
+  node \
+  tree
+
+# Install apps
+brew cask install \
+  adobe-acrobat-reader \
+  atom \
+  docker \
+  firefox \
+  forklift \
+  google-chrome \
+  iina \
+  opera \
+  prefs-editor \
+  skype \
+  transmission \
+  virtualbox
+
+mas install \
+  409183694 `# Keynote` \
+  409201541 `# Pages` \
+  409203825 `# Numbers`
 
 # Install global Node.js modules
 npm install -g \
