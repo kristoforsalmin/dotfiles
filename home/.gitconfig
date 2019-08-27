@@ -1,9 +1,2 @@
-[color]
-
-  # Enable color highlighting
-  ui = auto
-
-[help]
-
-  # Enable automatic correction and execution of the mistyped commands
-  autocorrect = 1
+[include]
+  path = ~/.gitconfig.local
