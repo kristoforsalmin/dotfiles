@@ -8,7 +8,7 @@ macOS Mojave 10.14.6.
 
 ## Installation
 
-Set Zsh as default shell:
+Set Zsh as a default shell:
 
 ```sh
 chsh -s "$(which zsh)"
