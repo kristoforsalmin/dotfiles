@@ -23,7 +23,6 @@ brew cask install \
   google-chrome \
   iina \
   opera \
-  prefs-editor \
   skype \
   transmission \
   virtualbox
