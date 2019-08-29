@@ -17,7 +17,7 @@ chsh -s "$(which zsh)"
 Restart Terminal and download the archive:
 
 ```sh
-curl -sSL --output ./dotfiles.zip https://github.com/kristoforsalmin/dotfiles/zipball/master
+curl -sSL https://github.com/kristoforsalmin/dotfiles/zipball/master > ./dotfiles.zip
 ```
 
 Extract it:
