@@ -3,11 +3,9 @@
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Install tools
 brew install \
+  antigen \
   git-lfs \
   mas \
   node \

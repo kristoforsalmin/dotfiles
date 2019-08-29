@@ -1,9 +1,13 @@
 #!/usr/bin/env zsh
 
-export ZSH="$HOME/.oh-my-zsh"
+source "$HOMEBREW_PREFIX/share/antigen/antigen.zsh"
 
-ZSH_THEME='nicoulaj'
+antigen use oh-my-zsh
 
-plugins=(git)
+antigen bundle git
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
 
-source "$ZSH/oh-my-zsh.sh"
+antigen theme nicoulaj
+
+antigen apply
