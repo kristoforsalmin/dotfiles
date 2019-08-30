@@ -1,6 +1,6 @@
 # Terminal
 
-Download and open [Solarized Dark profile](https://github.com/altercation/solarized/blob/master/osx-terminal.app-colors-solarized/xterm-256color/Solarized%20Dark%20xterm-256color.terminal), then set it as default.
+Download and open [Tomorrow Night Eighties profile](https://github.com/chriskempson/tomorrow-theme/blob/master/OS%20X%20Terminal/Tomorrow%20Night%20Eighties.terminal), then set it as default.
 
 <div align="center">
   <img src="./images/profiles.png" alt="" width="779">
