@@ -22,7 +22,6 @@ brew cask install \
   opera \
   skype \
   transmission \
-  virtualbox \
   visual-studio-code
 
 mas install \
