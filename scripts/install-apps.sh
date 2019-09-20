@@ -14,7 +14,6 @@ brew install \
 # Install apps
 brew cask install \
   adobe-acrobat-reader \
-  atom \
   docker \
   firefox \
   forklift \
@@ -23,7 +22,8 @@ brew cask install \
   opera \
   skype \
   transmission \
-  virtualbox
+  virtualbox \
+  visual-studio-code
 
 mas install \
   409183694 `# Keynote` \
@@ -37,11 +37,10 @@ npm install -g \
   npm-check-updates \
   svgo
 
-# Install Atom extensions
-apm install \
-  editorconfig \
-  linter \
-  linter-eslint \
-  linter-stylelint \
-  linter-ui-plus \
-  sort-lines
+# Install Visual Studio Code extensions
+code \
+  --install-extension akamud.vscode-theme-onelight \
+  --install-extension dbaeumer.vscode-eslint \
+  --install-extension EditorConfig.EditorConfig \
+  --install-extension ms-vscode.sublime-keybindings \
+  --install-extension shinnn.stylelint
