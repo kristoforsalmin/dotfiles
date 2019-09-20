@@ -10,7 +10,6 @@
 * [Keyboard](#keyboard)
 * [Trackpad](#trackpad)
 * [Sound](#sound)
-* [Siri](#siri)
 * [Date & Time](#date--time)
 
 ## General
@@ -38,7 +37,11 @@
 ## Security & Privacy
 
 <div align="center">
-  <img src="./images/security-privacy.png" alt="" width="780">
+  <img src="./images/security-privacy-1.png" alt="" width="780">
+</div>
+
+<div align="center">
+  <img src="./images/security-privacy-2.png" alt="" width="780">
 </div>
 
 ## Spotlight
@@ -87,12 +90,6 @@
 
 <div align="center">
   <img src="./images/sound.png" alt="" width="780">
-</div>
-
-## Siri
-
-<div align="center">
-  <img src="./images/siri.png" alt="" width="780">
 </div>
 
 ## Date & Time
