@@ -27,10 +27,6 @@ Set homepage to `about:blank`.
 </div>
 
 <div align="center">
-  <img src="./images/websites-3.png" alt="" width="886">
-</div>
-
-<div align="center">
   <img src="./images/advanced.png" alt="" width="886">
 </div>
 

@@ -76,6 +76,14 @@
   <img src="./images/keyboard-2.png" alt="" width="780">
 </div>
 
+<div align="center">
+  <img src="./images/keyboard-3.png" alt="" width="780">
+</div>
+
+<div align="center">
+  <img src="./images/keyboard-4.png" alt="" width="780">
+</div>
+
 ## Trackpad
 
 <div align="center">
