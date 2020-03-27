@@ -25,6 +25,7 @@ brew cask install \
   visual-studio-code
 
 mas install \
+  408981434 `# iMovie` \
   409183694 `# Keynote` \
   409201541 `# Pages` \
   409203825 `# Numbers`
