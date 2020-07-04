@@ -17,11 +17,11 @@ brew cask install \
   docker \
   firefox \
   forklift \
-  google-chrome \
   iina \
   opera \
   skype \
   transmission \
+  vagrant \
   visual-studio-code
 
 mas install \
