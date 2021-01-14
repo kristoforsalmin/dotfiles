@@ -44,14 +44,6 @@ Run `set-defaults.sh` script to set hidden macOS defaults:
 zsh ./scripts/set-defaults.sh
 ```
 
-## Configuration
-
-* [General](./docs/general/README.md)
-* [System Preferences](./docs/system-preferences/README.md)
-* [Finder](./docs/finder/README.md)
-* [Terminal](./docs/terminal/README.md)
-* [Safari](./docs/safari/README.md)
-
 ## License
 
 Code available under the MIT license.
