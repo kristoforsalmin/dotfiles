@@ -7,7 +7,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install \
   antigen \
   git-lfs \
-  mas \
   node \
   tree
 
@@ -18,17 +17,12 @@ brew cask install \
   firefox \
   forklift \
   iina \
+  onlyoffice \
   opera \
   skype \
   transmission \
   vagrant \
   visual-studio-code
-
-mas install \
-  408981434 `# iMovie` \
-  409183694 `# Keynote` \
-  409201541 `# Pages` \
-  409203825 `# Numbers`
 
 # Install global Node.js modules
 npm install -g \
