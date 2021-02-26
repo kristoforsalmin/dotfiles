@@ -1,0 +1,14 @@
+{
+  "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    100
+  ],
+  "show_encoding": true,
+  "show_line_endings": true
+}
