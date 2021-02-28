@@ -10,3 +10,6 @@ insert_final_newline = true
 
 [*.sublime-*]
 indent_style = tab
+
+[windows-terminal/*.json]
+indent_size = 4
