@@ -5,7 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"Caddyfile Syntax",
 		"EditorConfig",
-		"Package Control"
+		"Nunjucks",
+		"Package Control",
+		"Sass",
+		"TOML"
 	]
 }
