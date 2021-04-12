@@ -1,4 +1,8 @@
 {
-	"git_binary": "system",
-	"always_show_command_status": false,
+  "always_show_command_status": false,
+  "font_face": "Fira Code Retina",
+  "font_size": 10,
+  "git_binary": "system",
+  "hardware_acceleration": "opengl",
+  "tab_size": 2
 }

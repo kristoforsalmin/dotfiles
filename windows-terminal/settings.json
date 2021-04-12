@@ -36,6 +36,7 @@
                 "name": "Ubuntu 20.04",
                 "source": "Windows.Terminal.Wsl",
                 "colorScheme": "Tomorrow Night Eighties",
+                "fontFace": "Fira Code Retina",
                 "hidden": false
             },
             {
