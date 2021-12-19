@@ -1,0 +1,17 @@
+{
+	"caret_style": "smooth",
+	"font_face": "Fira Code Retina",
+	"font_size": 11,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_exclude_patterns":
+	[
+		"node_modules",
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+}

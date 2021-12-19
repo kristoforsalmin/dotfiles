@@ -1,8 +1,8 @@
 {
-  "always_show_command_status": false,
-  "font_face": "Fira Code Retina",
-  "font_size": 10,
-  "git_binary": "system",
-  "hardware_acceleration": "opengl",
-  "tab_size": 2
+	"font_face": "Fira Code Retina",
+	"font_size": 11,
+	"git_binary": "system",
+	"hardware_acceleration": "opengl",
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
 }
