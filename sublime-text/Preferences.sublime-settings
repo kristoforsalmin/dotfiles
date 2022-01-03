@@ -1,7 +1,8 @@
 {
 	"caret_style": "smooth",
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Fira Code Retina",
-	"font_size": 11,
+	"font_size": 13,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -14,4 +15,5 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true
 }

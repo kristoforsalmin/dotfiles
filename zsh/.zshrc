@@ -1,6 +1,8 @@
 #!/usr/bin/env zsh
 
-source /usr/share/zsh-antigen/antigen.zsh
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+source /opt/homebrew/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
@@ -11,3 +13,5 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme nicoulaj
 
 antigen apply
+
+source /opt/homebrew/opt/nvm/nvm.sh
