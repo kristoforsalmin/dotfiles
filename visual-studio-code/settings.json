@@ -2,6 +2,7 @@
   "breadcrumbs.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
+  "editor.copyWithSyntaxHighlighting": false,
   "editor.fontFamily": "FiraCode-Retina, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
