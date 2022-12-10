@@ -12,6 +12,7 @@
 	[
 		"node_modules",
 	],
+	"open_files_in_new_window": "never",
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 2,
