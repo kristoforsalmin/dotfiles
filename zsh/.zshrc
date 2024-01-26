@@ -1,7 +1,5 @@
 #!/usr/bin/env zsh
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 source /opt/homebrew/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
