@@ -12,4 +12,4 @@ antigen theme nicoulaj
 
 antigen apply
 
-source /opt/homebrew/opt/nvm/nvm.sh
+source ~/.zsh_aliases

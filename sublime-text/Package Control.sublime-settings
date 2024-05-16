@@ -1,15 +1,12 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"EditorConfig",
-		"Emmet",
-		"FileIcons Mono",
-		"Package Control",
-		"Sass",
-		"SideBarTools"
-	]
+  "bootstrapped": true,
+  "in_process_packages": [],
+  "installed_packages": [
+    "EditorConfig",
+    "FileIcons",
+    "Package Control",
+    "Sass",
+    "SideBarTools",
+    "Vue Syntax Highlight"
+  ]
 }
