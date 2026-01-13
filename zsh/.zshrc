@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 
+# Zsh
 source /opt/homebrew/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
@@ -13,3 +14,9 @@ antigen theme nicoulaj
 antigen apply
 
 source ~/.zsh_aliases
+
+# Brew
+export PATH="/opt/homebrew/bin:$PATH"
+
+# mise
+eval "$(mise activate zsh)"
